@@ -7,8 +7,13 @@ public class Crab extends Actor
 {
     public void act()
     {
-       turn(-5);
-       move ();
+       
+     
+        if (isAtEdge() )
+        {
+           turn(17); 
+        }
+        move ();
      
     }
     
